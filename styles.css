@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+body{
+	width:1100px;
+	background: red;
+	
+}
+.imageContainer{
+	display:flex;
+/* 	width:1110px; */
+/*     background: blue; */
+	margin-top: 5px;
+	margin-bottom:20px;
+	margin-inline:10px
+}
+.imageContainer>img{
+	display:inline-block;
+	width:60%
+}
+table{
+	width:1000px
+}
+.t11 , .t13 , .t21, .t23{
+	width:200px;
+	text-align:left;
+}
+.t12 , .t22{
+	width:600px;
+	text-align:center;
+}
